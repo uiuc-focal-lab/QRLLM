@@ -1,8 +1,6 @@
-# How Catastrophic is Your LLM? Certifying Risk in Conversation
+# Quantifying Risks in Multi-turn Conversation with Large Language Models
 
-This repository contains the implementation code for the paper *"How Catastrophic is Your LLM? Certifying Risk in Conversation"*.
-
----
+This repository contains the implementation code for the paper *"Quantifying Risks in Multi-turn Conversation with Large Language Models"*.
 
 ## Getting Started
 
