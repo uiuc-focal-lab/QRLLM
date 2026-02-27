@@ -19,6 +19,7 @@ This repository contains the implementation code for the paper *"Quantifying Ris
        --pre_attack_data_path ./pre_attack_result/chemical_biological/chembio.json
 
 3. **Certify**
+
    Run `python certify.py <attack result file path>` on the attack result file generated from the previous step. 
 
 ## Models and Strategies
