@@ -4,8 +4,9 @@ This repository contains the implementation code for the paper *"Quantifying Ris
 
 ## Getting Started
 
-1. **Set up API keys**  
-   Upload your API keys to the `.env` file.
+1. **Set up your environment**  
+    1. Create and activate conda environment: `conda env create -f env.yml; conda activate qrllm`
+    2. Upload your API keys to the `.env` file.
 
 2. **Run experiments**  
    Example command:  
@@ -16,6 +17,9 @@ This repository contains the implementation code for the paper *"Quantifying Ris
        --sample_strategy adaptive \
        --jailbreak_prob 0 \
        --pre_attack_data_path ./pre_attack_result/chemical_biological/chembio.json
+
+3. **Certify**
+   Run `python certify.py <attack result file path>` on the attack result file generated from the previous step. 
 
 ## Models and Strategies
 
